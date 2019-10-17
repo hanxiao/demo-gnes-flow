@@ -1,16 +1,18 @@
-# GNES Flow Demo 
+# GNES Flow Demo: Flower Image Retrieval
 
-Since `v0.0.46` GNES Flow has become the main interface of GNES. GNES Flow provides a **pythonic** and **intuitive** way to implement a pipeline, enabling users to run or debug GNES on a local machine. By default, GNES Flow orchestrates all microservices using multi-thread or multi-process backend, it can be also exported to a Docker Swarm/Kubernetes YAML config, allowing one to deliver GNES to the cloud.
+> Since `v0.0.46` GNES Flow has become the main interface of GNES. GNES Flow provides a **pythonic** and **intuitive** way to implement a pipeline, enabling users to run or debug GNES on a local machine. By default, GNES Flow orchestrates all microservices using multi-thread or multi-process backend, it can be also exported to a Docker Swarm/Kubernetes YAML config, allowing one to deliver GNES to the cloud.
 
-In this demo, our goal is to build a toy image search engine using GNES Flow API. 
+In this demo, we will learn to build a toy image search engine using GNES Flow API. The task is to retrieve similar flowers given query flowers.
+
+![](.github/94dd0f22.png)
 
 ## Files
 
-For first-time users, simply open `flower.ipynb` and follow the steps there.
+For first-time users, simply [open `flower.ipynb` and follow the steps there](flower.ipynb).
 
-- `flower.ipynb`: a self-contained Jupyter notebook with a step-by-step explanation 
-- `index.py`: the indexing part of `flower.ipynb`, for indexing all images.
-- `query.py`: the querying part of `flower.ipynb`, for querying sampled images and plotting top-10 results
+- [`flower.ipynb`](flower.ipynb): a self-contained Jupyter notebook with a step-by-step explanation 
+- [`index.py`](index.py): the indexing part of `flower.ipynb`, for indexing all images.
+- [`query.py`](query.py): the querying part of `flower.ipynb`, for querying sampled images and plotting top-10 results
 
 ## Requirements
 
