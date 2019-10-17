@@ -1,0 +1,4 @@
+!NumpyIndexer  # just for testing
+gnes_config:
+  name: my_vec_indexer  # a customized name
+  work_dir: $TEST_WORKDIR

@@ -1,0 +1,9 @@
+!PipelinePreprocessor
+components:
+  - !UnaryPreprocessor
+    parameters:
+      doc_type: 2
+  - !ResizeChunkPreprocessor
+    parameters:
+      target_height: 299
+      target_width: 299

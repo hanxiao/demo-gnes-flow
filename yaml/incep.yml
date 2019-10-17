@@ -1,0 +1,8 @@
+!TFInceptionEncoder
+parameters:
+  model_dir: $TEST_WORKDIR/inception_v4.ckpt
+gnes_config:
+  name: my_encoder  # a customized name
+  is_trained: true  # indicate the model has been trained
+  work_dir: $TEST_WORKDIR
+  batch_size: 128
